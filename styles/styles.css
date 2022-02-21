@@ -1,0 +1,251 @@
+html, body{
+    background-color: #072227;
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    /*animation: drop ease 1.5s;
+    -webkit-animation: drop ease 1.5s;*/
+}
+
+.navigation_menu{
+    background-color: #4FBDBA;
+    color: #0c2461;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/*-------------------*/
+
+.all_btn{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 3px;
+}
+
+.explication_site{
+    margin-top: 15px;
+    margin: 10px;
+    display: flex;
+}
+
+.explication_securite, .explication_blockchain{
+    margin-top: 15px;
+    margin: 10px;
+    display: flex;
+}
+
+.title_explication_site{
+    margin: 25px;
+    color: white;
+}
+
+.title_page_nft, .title_page_nft_trouver_une_bonne_collection, .title_page_nft_bored{
+    color: white;
+    margin: 25px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.explication_para_nft, .explication_para_nft_trouver_une_bonne_collection, .explication_para_nft_bored{
+    color: white;
+    margin: 20px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    display: flex;
+}
+
+.img_nft_bored{
+    height: 135px;
+    width: 256px;
+    margin-right: 10px;
+}
+
+.para_img_nft_cest_quoi, .para_img_nft_bored{
+    display: flex;
+}
+
+.img_nft_logo{
+    margin-right: 10px;
+}
+
+.img_explication_securite{
+    vertical-align: middle;
+    display: flex;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title_explication_securite, .title_explication_blockchain{
+    margin-top: 35px;
+    margin: 25px;
+    color: white;
+}
+
+.para_explication_site{
+    color: white;
+}
+
+.para_explication_securite, .para_explication_blockchain{
+    color: white;
+}
+
+.btn_cryptomonnaies, .btn_accueil, .btn_wallet, .btn_createur, .btn_nft{
+    color: #0c2461;
+    margin: 10px;
+}
+
+.crypto_bitcoin{
+    margin: 10px;
+}
+
+.title_crypto_bitcoin{
+    color: white;
+    margin-left: 15px
+}
+
+.logo_btc_crypto{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.explication_crypto_bitcoin{
+    color: white;
+}
+
+.para_img_explication_crypto_bitcoin{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.crypto_ethereum{
+    margin: 10px;
+}
+
+.title_crypto_ethereum{
+    color: white;
+    margin-left: 15px
+}
+
+.logo_eth_crypto{
+    width: 80px;
+    height: 120px;
+    border-radius: 75px;
+    margin-right: 15px;
+}
+
+.explication_crypto_ethereum{
+    margin: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.para_img_explication_crypto_ethereum{
+    display: flex;
+}
+
+.crypto_solana{
+    margin: 10px;
+}
+
+.title_crypto_solana{
+    color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.logo_sol_crypto{
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.explication_crypto_solana{
+    color: white;
+}
+
+.para_img_explication_crypto_solana{
+    display: flex;
+}
+
+
+.btn{
+    color: #0c2461
+}
+
+.title_contenu_page_crypto{
+    color: white;
+    margin: 25px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.text_btn_cryptomonnaies, .text_btn_wallet, .text_btn_accueil, .text_btn_nft, .text_btn_createur{
+    color: #0c2461;
+    text-decoration: none;
+    margin: 3px;
+}
+
+.text_btn_wallet_securite, .btn_hardfork, .btn_github_sol, .btn_bored_ape_collection{
+    color: white;
+}
+
+.contenu_page_crypto, .contenu_page_index, .contenu_page_nft, .contenu_page_wallet{
+    margin: 3px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+hr{
+    color: #AEFEFF;
+}
+
+/*------*/
+/*FOOTER*/
+/*------*/
+
+footer{
+    background-color:#2a4c4e;
+}
+
+.para_footer{
+    padding-top: 75px;
+    margin: 10px;
+    color: white;
+    padding-bottom: 75px;
+    margin-bottom: 0px;
+}
+
+/*
+                TRANSITIONS
+*/
+
+/*
+@keyframes drop {
+    0% {
+      transform: translate(0, -3rem);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+  
+@-webkit-keyframes drop {
+    0% {
+      transform: translate(0, -3rem);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+*/
