@@ -12,6 +12,9 @@ html, body{
     color: #0c2461;
     margin: 10px;
     border-radius: 15px;
+    width: 100%;
+    top: 0;
+    position: fixed;
 }
 
 /*-------------------*/
@@ -22,7 +25,6 @@ html, body{
 
 li{
     list-style-type: none;
-    padding: 3px;
 }
 
 .explication_site{
@@ -99,8 +101,21 @@ img {
 
 .btn_cryptomonnaies, .btn_accueil, .btn_wallet, .btn_createur, .btn_nft{
     color: #0c2461;
-    margin: 10px;
+    
 }
+.btn_accueil a:hover, .btn_nft a:hover, .btn_cryptomonnaies a:hover{
+    background-color: #2a4c4e;
+    color: black;
+}
+
+.btn_cryptomonnaies a,.btn_nft a, .btn_accueil a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
 
 .crypto_bitcoin{
     margin: 10px;
@@ -201,7 +216,7 @@ img {
 
 .contenu_page_crypto, .contenu_page_index, .contenu_page_nft, .contenu_page_wallet{
     margin: 3px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 0px;
 }
 
